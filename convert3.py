@@ -106,7 +106,7 @@ def main():
         headers()
         trufflehog(pathDir)
         golangci_lint(pathDir)
-        dependency_check(pathDir)
+#        dependency_check(pathDir)
 
 if __name__ == "__main__":
         main()
