@@ -1,10 +1,10 @@
 {
     "Slack Token": "(xox[pborsa]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})",
-    "RSA private key": "-----BEGIN RSA PRIVATE KEY-----([^!]+)-----END RSA PRIVATE KEY-----",
-    "OpenSSH private key": "-----BEGIN OPENSSH PRIVATE KEY-----([^!]+)-----END OPENSSH PRIVATE KEY-----",
-    "SSH (DSA) private key": "-----BEGIN DSA PRIVATE KEY-----([^!]+)-----END DSA PRIVATE KEY-----",
-    "SSH (EC) private key": "-----BEGIN EC PRIVATE KEY-----([^!]+)-----END EC PRIVATE KEY-----",
-    "PGP private key block": "-----BEGIN PGP PRIVATE KEY BLOCK-----([^!]+)-----END PGP PRIVATE KEY BLOCK-----",
+    "RSA private key": "-----BEGIN RSA PRIVATE KEY-----([^!]+)",
+    "OpenSSH private key": "-----BEGIN OPENSSH PRIVATE KEY-----([^!]+)",
+    "SSH (DSA) private key": "-----BEGIN DSA PRIVATE KEY-----([^!]+)",
+    "SSH (EC) private key": "-----BEGIN EC PRIVATE KEY-----([^!]+)",
+    "PGP private key block": "-----BEGIN PGP PRIVATE KEY BLOCK-----([^!]+)",
 
     "Artifactory API Token": "(?:\\s|=|:|\"|^)AKC[a-zA-Z0-9]{10,}",
     "Artifactory Password": "(?:\\s|=|:|\"|^)AP[\\dABCDEF][a-zA-Z0-9]{8,}",
